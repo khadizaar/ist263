@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="utf-8">
+       <title>Contact Lab4</title>
+   </head>
+   <body>
+    <h1>Contact</h1>
+        <h2>Khadiza Rahman</h2>
+        <h3> Brooklyn, New York</h3>
+        <h4> Social Media</h4>
+        <a href="https://www.facebook.com/KhadijaBakes/">Facebook</a>
+        <a href="https://www.instagram.com/khadijabakes/">Instagram</a>
+        <a href="https://www.linkedin.com/in/khadiza-rahman22"target="_blank">LinkedIn</a>     
+        <h4>KhadijaBakes</h4>
+        <img src="../PHOTOS/khadijabakesphoto.jpg">
+        <h4><a href="mailto:krahma01@syr.edu"></a>My Email</a></h4>
+    </table>
+        <h2>Order Delivery Forms</h2>
+        <form actions="https://formspree.io/f/xayrekaq" method="post">
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname"><br>
+            <p>Choose a delivery method:</p>
+            <input type="radio" id="pickup" name="pickupdelivery" value="pickup">
+            <label for="pickup">pickup</label>
+            <input type="radio" id="delivery" name="pickupdelivery" value="delivery">
+            <label for="delivery">delivery</label>
+            <p>Do you want any custom desserts?</p>
+            <lable for="checkbox">no</lable>
+            <input type="checkbox" id="custom" name="custom" value="no"><br>
+            <lable for="checkbox">yes</lable>
+            <input type="checkbox" id="custom" name="custom" value="yes"><br>
+            <label for="instructions">Special Instructions:</label><br>
+            <textarea id="instructions" name="instructions" rows="3" cols="60"></textarea><br>
+            <label>Neighborhood</label><br>
+            <select id="neighborhood" name="neighborhood">
+                <option></option>
+                <option value="Brooklyn">Brooklyn</option>
+                <option value="Queens'">Queens</option>
+                <option value="Staten Island">Staten Island</option>
+            </select><br>
+            <input type="submit" value="Send Form">
+        </form>
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Title here</title>
+    </head>
+    <body>
+    <h1>Khadiza Rahman's Biography</h1>
+        Hello! My name is Khadiza Rahman and I am from Brooklyn, New York. 
+    <p>
+         I am a passionate first-generation Bengali American sophomore pursuing a degree in Information Management and Technology, with concentrations in Project Management and Web Design Management. 
+    </p>
+    <p>
+         My educational path reflects my passion for both knowledge acquisition and creative exploration.<stong>Commodore</stong> I am driven by the desire to challenge myself through the study of technology's integration into business and our broader world while nurturing my creative thinking abilities and delving into my areas of interest.
+    </p>
+    <h2>Personal Information</h2>
+    <p>
+        Some of my favorite hobbies include cooking and baking. My love for baking led me to open up my own home based baking business and allowed me ti have an outlet for my creativity. It also gave me an opportunity to be my own leader and gain skills such as branding, marketing, accounting, and more! 
+    </p>
+    <p>
+    Although baking is my favorite hobby, I also enjoy playing sports like basketball and badminton. I also enjoy watching cooking and baking shows, my favorite obviously being the Great British Bake-Off. I plan to expand my knowledge in my experiences soon with more experience and leadership roles and more opportunities to find other creativity outlets.
+    </p>
+    </body>
+    <br>&#169 2020<br>
+</html>
