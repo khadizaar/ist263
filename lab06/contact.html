@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="utf-8">
+       <title>Contact Lab4</title>
+       <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+    <h1>Contact</h1>
+        <h2>Khadiza Rahman</h2>
+        <h3> Brooklyn, New York</h3>
+        <h4> Social Media</h4>
+        <a href="https://www.facebook.com/KhadijaBakes/">Facebook</a>
+        <a href="https://www.instagram.com/khadijabakes/">Instagram</a>
+        <a href="https://www.linkedin.com/in/khadiza-rahman22"target="_blank">LinkedIn</a>     
+        <h4>KhadijaBakes</h4>
+        <img src="../PHOTOS/logo-sized.png">
+        <img src="../PHOTOS/Khadizaeatingphotoshopped.png">
+        <h4><a href="mailto:krahma01@syr.edu"></a>My Email</a></h4>
+    </table>
+        <h2>Order Delivery Forms</h2>
+        <form actions="https://formspree.io/f/xayrekaq" method="post">
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname"><br>
+            <p>Choose a delivery method:</p>
+            <input type="radio" id="pickup" name="pickupdelivery" value="pickup">
+            <label for="pickup">pickup</label>
+            <input type="radio" id="delivery" name="pickupdelivery" value="delivery">
+            <label for="delivery">delivery</label>
+            <p>Do you want any custom desserts?</p>
+            <lable for="checkbox">no</lable>
+            <input type="checkbox" id="custom" name="custom" value="no"><br>
+            <lable for="checkbox">yes</lable>
+            <input type="checkbox" id="custom" name="custom" value="yes"><br>
+            <label for="instructions">Special Instructions:</label><br>
+            <textarea id="instructions" name="instructions" rows="3" cols="60"></textarea><br>
+            <label>Neighborhood</label><br>
+            <select id="neighborhood" name="neighborhood">
+                <option></option>
+                <option value="Brooklyn">Brooklyn</option>
+                <option value="Queens'">Queens</option>
+                <option value="Staten Island">Staten Island</option>
+            </select><br>
+            <input type="submit" value="Send Form">
+        </form>
+    </body>
+</html>
